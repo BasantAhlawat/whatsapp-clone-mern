@@ -1,0 +1,38 @@
+.sidebarChat {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(235, 229, 229);
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a{
+    color: black;
+    text-decoration: none !important;
+}
+
+.sidebarChat:hover{
+    background-color: #dfdbdb;
+}
+
+.sidebarChat__info >h2{
+    
+    font-size: 18px;
+    margin-bottom: 8px;
+    
+}
+
+.sidebarChat__info{
+    margin-left: 15px;
+    
+    
+}
